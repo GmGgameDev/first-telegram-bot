@@ -12,7 +12,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS users(
             id TEXT,
             name TEXT)''')
 
-token = '7366697864:AAEDJDX6xOvjfunF-ASmwdWVKnXrRBIJkMk'
+token = 'your_bot_token'
 bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=["start"])
